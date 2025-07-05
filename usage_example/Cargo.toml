@@ -1,0 +1,10 @@
+[package]
+name = "epd-example-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+epd-waveshare = { path = ".." }
+linux-embedded-hal = "0.4"
+sysfs_gpio = "0.6"
+embedded-graphics = "0.8"
